@@ -109,7 +109,7 @@ html {
     margin-top: 47px;
     padding-top: 50%;
     position: relative;
-    background: url('/assets/img/slider1.jpg') bottom center / cover no-repeat;
+    background: url('/assets/img/slider1.jpg') top center / cover no-repeat;
 }
 
 #slider .text-content {
