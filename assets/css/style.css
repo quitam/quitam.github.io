@@ -235,6 +235,67 @@ html {
 }
 
 
+/* Places section */
+
+#content .places-list {
+    margin: 32px -8px 0;
+}
+
+#content .place-item {
+    float: left;
+    width: 33.33333%;
+    padding: 0 8px;
+}
+
+#content .place-img {
+    width: 100%;
+    display: block;
+}
+
+#content .place-img:hover {
+    opacity: 0.6;
+}
+
+#content .place-content {
+    background: #fff;
+    padding: 0.15px 16px 16px;
+}
+
+.place-name,
+.place-time,
+.place-desc {
+    margin: 15px 0;
+}
+
+#content .place-name {
+    font-size: 15px;
+}
+
+#content .place-time {
+    opacity: 0.6;
+}
+
+#content .place-desc {
+    line-height: 1.4;
+}
+
+#content .buy-btn {
+    text-decoration: none;
+    display: inline-block;
+    background-color: #000;
+    color: #fff;
+    padding: 8px 16px;
+    margin-bottom: 8px;
+    transition: 0.5s;
+}
+
+#content .buy-btn:hover {
+    box-shadow: inset 107.7px 0 0 0 #ccc;
+    transition: 0.5s;
+    color: #000;
+}
+
+
 /* Footer section */
 
 #footer {
