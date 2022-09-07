@@ -8,6 +8,14 @@ html {
     font-family: Lato, sans-serif;
 }
 
+.clear {
+    clear: both;
+}
+
+.text-white {
+    color: #fff;
+}
+
 
 /*
 1. vị trí
@@ -109,7 +117,7 @@ html {
     margin-top: 47px;
     padding-top: 50%;
     position: relative;
-    background: url('/assets/img/slider1.jpg') top center / cover no-repeat;
+    background: url('/assets/img/slider/slider1.jpg') top center / cover no-repeat;
 }
 
 #slider .text-content {
@@ -171,6 +179,63 @@ html {
     margin: 15px 0;
     line-height: 1.5;
 }
+
+#content .member-item {
+    float: left;
+    padding: 32px 0;
+    width: 33.33333%;
+    text-align: center;
+}
+
+#content .member-name {
+    margin: 15px 0;
+    font-size: 15px;
+}
+
+#content .member-avatar {
+    margin: 0 0 16px;
+    border-radius: 5px;
+    width: 155px;
+}
+
+
+/* Tour section */
+
+.tour-section {
+    background: #000;
+}
+
+.month {
+    background-color: #fff;
+}
+
+.month>li {
+    border: 1px solid #c7c7c7;
+    list-style-type: none;
+    color: #757575;
+    font-size: 15px;
+    height: 40px;
+    padding: 8px 16px;
+    line-height: 24px;
+}
+
+.month .sold-out {
+    background: red;
+    margin-left: 16px;
+    padding: 0 8px;
+}
+
+.month .quantity {
+    float: right;
+    text-align: center;
+    background: #000;
+    border-radius: 50%;
+    padding: 0 8px;
+    margin-right: 16px;
+}
+
+
+/* Footer section */
 
 #footer {
     padding: 0;
