@@ -238,6 +238,7 @@ html {
 /* Places section */
 
 #content .places-list {
+    padding-bottom: 32px;
     margin: 32px -8px 0;
 }
 
