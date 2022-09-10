@@ -13,7 +13,33 @@ html {
 }
 
 .text-white {
-    color: #fff;
+    color: #fff !important;
+}
+
+.row {
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.col {
+    float: left;
+    padding: 8px;
+}
+
+.col-3 {
+    width: 33.33333%;
+}
+
+.col-2 {
+    width: 50%;
+}
+
+.col-1 {
+    width: 100%;
+}
+
+.text-center {
+    text-align: center !important;
 }
 
 
@@ -180,13 +206,6 @@ html {
     line-height: 1.5;
 }
 
-#content .member-item {
-    float: left;
-    padding: 32px 0;
-    width: 33.33333%;
-    text-align: center;
-}
-
 #content .member-name {
     margin: 15px 0;
     font-size: 15px;
@@ -239,13 +258,7 @@ html {
 
 #content .places-list {
     padding-bottom: 32px;
-    margin: 32px -8px 0;
-}
-
-#content .place-item {
-    float: left;
-    width: 33.33333%;
-    padding: 0 8px;
+    margin-top: 32px;
 }
 
 #content .place-img {
@@ -408,10 +421,76 @@ header.modal-header {
 }
 
 
+/* Contact */
+
+.contact-content {
+    margin-top: 48px;
+}
+
+.contact-info {
+    padding-top: 16px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.contact-info i {
+    width: 30px;
+}
+
+.contact-form .form-control {
+    width: 100%;
+    font-size: 15px;
+    line-height: 1.5;
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+.btn-send {
+    font-size: 15px;
+    color: #fff;
+    background: #000;
+    float: right;
+    margin: 16px 0;
+    padding: 8px 16px;
+    border: none;
+    transition: 0.4s;
+}
+
+.btn-send:hover {
+    cursor: pointer;
+    box-shadow: inset 73.68px 0 0 0 #ccc;
+    transition: 0.4s;
+    color: #000;
+}
+
+
 /* Footer section */
 
 #footer {
-    padding: 0;
+    line-height: 1.5;
+    font-size: 24px;
+    text-align: center;
+    padding: 64px 16px;
+}
+
+#footer .socials-list i {
+    color: #ccc;
+}
+
+#footer .copyright a:hover,
+#footer .socials-list i:hover {
+    color: #000;
+}
+
+#footer .copyright {
+    margin: 15px 0;
+    font-size: 15px;
+    color: #000;
+    opacity: 0.6;
+}
+
+#footer .copyright a {
+    color: #000;
 }
 
 @keyframes modalOpen {
